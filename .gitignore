@@ -1,0 +1,14 @@
+/node_modules
+/config/.env
+
+
+# dependencies
+/client/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/client/coverage
+
+# production
+/client/build
