@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  color : #624C78;
 }
 
 .featuredItem {
@@ -35,15 +36,8 @@
     margin-left: 20px;
 }
 
-.featuredIcon{
-    font-size: 14px;
-    margin-left: 5px;
-    color: green;
-}
 
-.featuredIcon.negative{
-    color: red;
-}
+
 
 .featuredSub{
     font-size: 15px;

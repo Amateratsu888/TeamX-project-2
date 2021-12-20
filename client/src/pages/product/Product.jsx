@@ -47,7 +47,7 @@ export default function Product() {
       </div>
       <div className="productTop">
         <div className="productTopLeft">
-          <Chart data={productData[0]} dataKey="quantity" title="Stock Performance" />
+          <Chart data={productData} dataKey="quantity" title="Stock Performance" />
         </div>
         <div className="productTopRight">
           <div className="productInfoTop">
@@ -63,7 +63,13 @@ export default function Product() {
               <span className="productInfoKey">quantity:</span>
               <span className="productInfoValue">{productData[0].quantity}</span>
             </div>
-            
+          </div>
+          <div className="productInfoImg">
+            <img 
+            src={`http://localhost:5000/images/${productData[0].image_filename}`}
+            alt='product image'
+            style={{height : '224px' , width : '224px'}}
+            />
           </div>
         </div>
       </div>

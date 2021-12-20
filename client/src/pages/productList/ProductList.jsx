@@ -22,7 +22,7 @@ export default function ProductList() {
 
 
   const handleDelete = (id) => {
-  axios.delete(`http://localhost:5000/API/products/${id}`)
+  axios.delete(`http://localhost:5000/API/product/${id}`)
   setData(data.filter((item) => item._id !== id));
     
   };

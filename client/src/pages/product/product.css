@@ -7,13 +7,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #624C78;
 }
-
 .productAddButton {
   width: 80px;
   border: none;
   padding: 5px;
-  background-color: teal;
+  background-color: #624C78;
   color: white;
   border-radius: 5px;
   font-size: 16px;
@@ -47,6 +47,7 @@
 .productInfoTop {
   display: flex;
   align-items: center;
+  color :#624C78;
 }
 
 .productName {
@@ -65,6 +66,12 @@
 
 .productInfoValue {
   font-weight: 300;
+  color:#624C78;
+}
+
+.productInfoKey{
+  font-weight: 300;
+  color:#624C78;
 }
 
 .productBottom {
@@ -77,6 +84,7 @@
 .productForm {
   display: flex;
   justify-content: space-between;
+  color:#624C78;
 }
 
 .productFormLeft {
@@ -86,14 +94,14 @@
 
 .productFormLeft > label {
   margin-bottom: 10px;
-  color: gray;
+  color: #624C78;
 }
 
 .productFormLeft > input {
   margin-bottom: 10px;
   border: none;
   padding: 5px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #624C78;
 }
 
 .productFormLeft >select{
@@ -123,8 +131,8 @@
   border: none;
   padding: 5px;
   border-radius: 5px;
-  background-color: darkblue;
-  color:white;
+  background-color: #624C78;;
+  color:#ffffff;
   font-weight: 600;
   cursor: pointer;
 }

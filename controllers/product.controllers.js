@@ -39,7 +39,7 @@ try{
     }
 }
 
-// suprimer un produit
+// suprimer un produit 
 module.exports.deleteProduct = async (req, res) => {
     if (!verifiedID.isValid(req.params.id))
     return res.status(404).send({ message: `INVALID ID ${req.params.id}` });

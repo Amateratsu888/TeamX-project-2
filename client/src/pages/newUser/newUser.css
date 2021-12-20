@@ -3,6 +3,10 @@
   margin-left: 30px;
 }
 
+.newUserTitle{
+  color: #624C78;
+}
+
 .newUserForm {
   display: flex;
   flex-wrap: wrap;
@@ -14,13 +18,14 @@
   flex-direction: column;
   margin-top: 10px;
   margin-right: 20px;
+ 
 }
 
 .newUserItem > label {
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(151, 150, 150);
+  color: #624C78;
 }
 
 .newUserItem > input {
@@ -37,7 +42,7 @@
 .newUserGender>label{
     margin: 10px;
     font-size: 18px;
-    color: #555;
+    color: #624C78;
 }
 
 .newUserSelect{
@@ -48,7 +53,7 @@
 .newUserButton{
     width: 200px;
     border: none;
-    background-color: darkblue;
+    background-color: #624C78;
     color: white;
     padding: 7px 10px;
     font-weight: 600;

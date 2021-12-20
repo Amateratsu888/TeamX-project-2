@@ -7,13 +7,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #624C78;
 }
 
 .userAddButton {
   width: 80px;
   border: none;
   padding: 5px;
-  background-color: teal;
+  background-color:   #624C78;
   border-radius: 5px;
   cursor: pointer;
   color: white;
@@ -56,6 +57,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  color: #624C78;
 }
 
 .userShowUsername {
@@ -64,6 +66,7 @@
 
 .userShowUserTitle {
   font-weight: 300;
+  color: #624C78;
 }
 
 .userShowBottom{
@@ -73,14 +76,14 @@
 .userShowTitle {
   font-size: 14px;
   font-weight: 600;
-  color: rgb(175, 170, 170);
+  color: #624C78;
 }
 
 .userShowInfo{
     display: flex;
     align-items: center;
     margin: 20px 0px;
-    color: #444;
+    color: #624C78;
 }
 
 .userShowIcon{
@@ -89,11 +92,13 @@
 
 .userShowInfoTitle{
     margin-left: 10px;
+    color: #624C78;
 }
 
 .userUpdateTitle{
     font-size: 24px;
     font-weight: 600;
+    color: #624C78;
 }
 
 .userUpdateForm{
@@ -111,6 +116,7 @@
 .userUpdateItem>label{
     margin-bottom: 5px;
     font-size: 14px;
+    color: #624C78;
 }
 
 .userUpdateInput{
@@ -148,7 +154,7 @@
     border: none;
     padding: 5px;
     cursor: pointer;
-    background-color: darkblue;
+    background-color:  #624C78;
     color: white;
     font-weight: 600;
 }
